@@ -1,0 +1,99 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+
+    display: inline-block;
+    width: 185px;
+    max-width: 189px;
+    height: 380px;
+    max-height: 380px;
+    padding: 1.2%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: rgb(201, 255, 210) dotted 2px;
+    border-radius: 2.5%;
+    box-shadow: 5.4px 10.9px 10.9px hsl(0deg 0% 0% / 0.33);
+    margin: 1%;
+
+}
+
+.offer {
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 0.8;
+    color: #504261;
+}
+
+.main {
+    line-height: 0;
+}
+
+.thumbnail {
+    width: inherit;
+    height: 70%;
+    max-width: inherit;
+    /* // max-height: inherit; */
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+
+
+
+
+
+.card .main {
+    color: #4C0070;
+}
+
+.section .secHead {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    color: #160040;
+    text-align: center;
+    border-top: 2px dotted #79018C;
+    border-bottom: 2px dotted #79018C;
+    padding: 0%;
+
+}
+
+.lntr {
+    text-decoration: line-through;
+}
+
+.rating {
+    line-height: 1.5;
+}
+
+.card a {
+    text-decoration: none;
+    color: #e9bbff;
+}
+
+.card button {
+    border-top: 1px dotted #ffffff;
+    border-top: 1px dotted #ffffff;
+    text-decoration: none;
+    border-radius: 5%;
+    outline: 0;
+    padding: 7px;
+    color: #e9bbff;
+    background-color: #9A0680;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.card .addCart {
+    background-color: #4C0070;
+
+}
+
+.card button:hover {
+    opacity: 0.7;
+}

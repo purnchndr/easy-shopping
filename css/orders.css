@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    width: 90%;
+    height: 72vh;
+    margin: 2%;
+    padding: 2%;
+    color: rgb(79, 48, 88);
+    background-color: rgb(233, 255, 248);
+    box-shadow: 5.4px 10.9px 10.9px hsl(0deg 0% 0% / 0.33);
+}
+
+h1, p {
+    margin: 0;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.hed {
+    box-shadow: 5.4px 10.9px 10.9px hsl(0deg 0% 0% / 0.33);
+}
+
+.hed:hover {
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.main:hover {
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
